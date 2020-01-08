@@ -45,7 +45,7 @@ public class Main {
                 int actual = inputs[i][j];
 
                 if (expected!=actual) {
-                    System.out.printf("Expected %d, actual %d\n", expected, actual);
+                    System.out.printf("Case %d: index %d, Expected %d, actual %d\n", i, j, expected, actual);
                     return false;
                 }
             }
