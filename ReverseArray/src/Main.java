@@ -7,9 +7,21 @@ public class Main {
     public static void reverseArray(int[] values) {
         int size = values.length;
         for (int i=0; i<size/2; i++) {
+            /*
             int temp = values[i];
             values[i] = values[size-1-i];
             values[size-1-i] = temp;
+             */
+
+            // swap two numbers without extra space
+            // a = a - b
+            // b = b + a
+            // a = b - a
+            if (values[i]!=values[size-1-i]) {
+                values[i] = values[i] - values[size-1-i];
+                values[size-1-i] = values[size-1-i] + values[i];
+                values[i] = values[size-i-1] - values[i];
+            }
         }
     }
 
