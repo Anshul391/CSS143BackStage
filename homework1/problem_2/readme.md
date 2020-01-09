@@ -1,15 +1,15 @@
-## (30pt) Binary Search
+## (30pt) Bubble Sort
 
-Write a function to perform binary search in a **sorted** integer array. Also write as many tests as you think necessary to demonstrate your binary search code works correctly. 
+Write a function to bubble sort in place in an integer array. Also write as many tests as you think necessary to demonstrate your bubble sort code works correctly. 
 
-Binary search was discussed in class as part of the search problem. If you need help, [here](https://www.geeksforgeeks.org/binary-search/) is a good start. Note that binary search can be implemented with or without recursion. If you are comfortable with recursion already, feel free to use it. Otherwise for-loop would do just fine.
+Bubble sort was also discussed in class. If you need help understanding it, [here](https://www.geeksforgeeks.org/bubble-sort/) is a good start. 
 
-A basic code structure is provided at homework1/problem_1/src/Main.java. This file must be used and no change can be made to the main function (line 7, 8 and 9). 
+A basic code structure is provided at **homework1/problem_2/src/Main.java**. This file **must** be used and no change can be made to the main function (line 7, 8 and 9). 
 
-When the homework is done, your code should print
+When the homework is done, your code should print:
 
 ```bash
-testBinarySearch PASSED
+testBubbleSort PASSED
 ```
 
 
