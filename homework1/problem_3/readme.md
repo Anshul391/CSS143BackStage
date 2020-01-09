@@ -1,15 +1,30 @@
-## (30pt) Bubble Sort
+## (30pt) Number That Appears The Most Times
 
-Write a function to bubble sort in place in an integer array. Also write as many tests as you think necessary to demonstrate your bubble sort code works correctly. 
+Write a function to find the number that appears the most times (highest frequency) in an integer array. 
 
-Bubble sort was also discussed in class. If you need help understanding it, [here](https://www.geeksforgeeks.org/bubble-sort/) is a good start. 
+For example:
 
-A basic code structure is provided at **homework1/problem_2/src/Main.java**. This file **must** be used and no change can be made to the main function (line 7, 8 and 9). 
+- In [7], number 7 appeared once, and there is no other number, therefore findHighestFrequencyNumber(...) should return 7
+- In [2, 2], number 2 appeared twice, and there is no other number, therefore findHighestFrequencyNumber(...) should return 2
+- In [7, 8, 9, 8, 8], number 8 appeared 3 times, number 7 and 9 both only appeared once, therefore findHighestFrequencyNumber(...) should return 8
+
+To simplified things, we do not check the case for having a tie such as [5, 5, 9, 9]. 
+
+The returned result from findHighestFrequencyNumber() is an object of type Answer. Similar to what we did in the findMax() example in class. If the input array is empty, the returned Answer object will have:
+
+```java
+val: -1
+isValid: false
+```
+
+Otherwise *val* should be the number that appears the most times, and *isValid* should be true.
+
+A basic code structure is provided at **homework1/problem_3/src/Main.java**. This file **must** be used and you can **only** write in the findHighestFrequencyNumber(...) function. ***DO NOT CHANGE*** other part of the code.
 
 When the homework is done, your code should print:
 
 ```bash
-testBubbleSort PASSED
+testFindHighestFrequencyNumber PASSED
 ```
 
 
