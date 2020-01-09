@@ -1,4 +1,4 @@
-(25pt) Binary Search
+## (25pt) Binary Search
 
 Write a function to perform binary search in a **sorted** integer array. Also write as many tests as you think necessary to demonstrate your binary search code works correctly. 
 
