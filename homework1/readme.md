@@ -1,4 +1,4 @@
-## Dawn of The Winter:
+## Dawn of The Winter
 
 ### Basic Info
 
