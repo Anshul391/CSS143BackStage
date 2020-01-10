@@ -40,14 +40,13 @@ public class Main {
         // prepare the answers
         int inputs[][] = {
                 {},
-                {1},
+                {7},
                 {-1},
                 {2, 2},
-                {2, 3},
                 {4, 4, 3},
-                {6, 5, 5, 6},
+                {6, 5, -1, 6},
                 {7, 8, 9, 8, 8}};
-        int values[] = {-1, 1, -1, 2, 2, 4, 5, 8};
+        int values[] = {-1, 7, -1, 2, 4, 6, 8};
         Answer[] answers = new Answer[inputs.length];
         for (int i = 0; i < inputs.length; i++) {
             answers[i] = new Answer(values[i], (i == 0 ? false : true));

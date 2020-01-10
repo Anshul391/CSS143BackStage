@@ -14,7 +14,7 @@ There are 4 problems.
 
 Problem 1, 2 and 3 are in their separate folders with description. 
 
-Problem 4 has 10 point as following: "Send me a private message in Discord. Describe the following:
+Problem 4 has 10 point as following: Send me a private message in Discord. Describe the following:
 
 - Your full name
 - Your technical background. For example, What programming language do you know? Have you used Java before? If yes, on what kind of projects?
@@ -25,8 +25,9 @@ Problem 4 has 10 point as following: "Send me a private message in Discord. Desc
 
 - Start early. Ask questions. Come to study group. 
 - I will give partial credits for this homework. If you cannot finish some part, add comments describing your thinking.
-- OK to search web to finish help. Give credits in your code if you use any.
-- No late submission without explanation and permission.
+- OK to search web for help. Give credits in your code if you use any. 
+- Homework is to be done by yourself. Okay to discuss with others.
+- Late submission without explanation AND permission will receive ZERO point.
     
     
 
