@@ -21,7 +21,6 @@ public class Main {
                 }
             }
         }
-        return;
     }
 
     public static boolean testBubbleSort() {
