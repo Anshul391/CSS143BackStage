@@ -90,8 +90,9 @@ public class Main {
                 {7, 8, 9, 8, 8},
                 {5, 5, 5, 6, 6},
                 {5, 5, 6, 6, 6},
-                {4, 4, 5, 5, 5, 6, 6, 6}};
-        int values[] = {-1, 7, -1, 2, 4, 6, 8, 5, 6, 5};
+                {4, 4, 5, 5, 5, 6, 6, 6},
+                {2, 2, 1, 1, 2}};
+        int values[] = {-1, 7, -1, 2, 4, 6, 8, 5, 6, 5, 2};
         Answer[] answers = new Answer[inputs.length];
         for (int i = 0; i < inputs.length; i++) {
             answers[i] = new Answer(values[i], (i == 0 ? false : true));
