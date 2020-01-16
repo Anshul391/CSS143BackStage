@@ -1,4 +1,7 @@
 ## (25pt) Color Sort
+
+### Description
+
 Sort an array that contains three colors red, white or blue in-place such that the same color are adjacent, with the colors in the order of red, yellow and green. Integers 0, 1, and 2 are used to represent the color red, yello, and green respectively. 
 
 Any sorting function from any library is not allowed or you'll receive zero points
@@ -15,8 +18,14 @@ Extra credit: 5pt to have a solution that make only one pass.
 
 Skeleton code is provided in this folder. 
 
+### Tests
+Add tests following the given pattern. Note that this tests structure will run all tests even if some would fail.
 
+At submission, all tests should pass and your code should (only) print:
 
+```bash
+testColorSort PASSED
+```
 
 
 
