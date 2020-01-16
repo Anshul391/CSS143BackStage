@@ -2,7 +2,7 @@
 
 Design a special kind of stack that acts like a regular stack with push, pop, peek, and an additional special function that ***retrieves the minimum element in constant time***. 
 
-The MinStack class is based on your ArrayStack class from problem 2 so please copy over your code to this function.
+The MinStack class is based on your ArrayStack class from problem 2 so please copy over your code from problem 2 to ArrayStack.java **without any changes**.
 
 ```Java
 public class MinStack extends ArrayStack {
