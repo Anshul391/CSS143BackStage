@@ -25,7 +25,7 @@ Following the exmaple of ArrayStack from class, implement the following function
 
 Note that push, pop and peek all need to be verified in these tests.
 
-### Remove Outermost Parentheses
+### Remove Outermost Parentheses (20pt)
 
 Now that you finished the awesome Stack ADT, let's put it to some use to solve the following problem.
 
