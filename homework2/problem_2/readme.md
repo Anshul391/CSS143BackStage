@@ -29,7 +29,9 @@ Note that push, pop and peek all need to be verified in these tests.
 
 Now that you finished the awesome Stack ADT, let's put it to some use to solve the following problem.
 
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', implement the ValidParentheses.isValid() ***USING YOUR ARRAYSTACK*** in ValidParentheses to determind if the input string is valid. If your ArrayStack is not used directly to solve the problem, you will receive zero points for the 20pts of this part including the tests.
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', implement the ValidParentheses.isValid() ***USING YOUR ARRAYSTACK*** in ValidParentheses to determind if the input string is valid. 
+
+**WARNING:** If your ArrayStack is not used directly to solve the problem, you will receive zero points for the 20pts of this part including the tests.
 
 An input string is valid if:
 
