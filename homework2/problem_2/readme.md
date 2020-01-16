@@ -25,7 +25,7 @@ Following the exmaple of ArrayStack from class, implement the following function
 
 Note that push, pop and peek all need to be verified in these tests.
 
-### Remove Outermost Parentheses (20pt)
+### Validate Parentheses (10pt)
 
 Now that you finished the awesome Stack ADT, let's put it to some use to solve the following problem.
 
@@ -51,6 +51,6 @@ On the countrary, the following are not "valid" parentheses string:
 - )(
 - []{{]}
 
-
+### Tests for ValidParentheses.isValid()
 
 
