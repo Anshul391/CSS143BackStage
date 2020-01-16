@@ -65,3 +65,13 @@ public static boolean testIsValid() {
 }
 ```
 Complete the test calls and verficiation. Also add at least another 5 different test cases (1 pt for each case).
+
+## Submission Output
+Upon submission, your code should only print the following:
+```bash
+testArrayStackEmptyQueue PASSED
+testArrayStackQueueOfSizeOne PASSED
+testArrayStackQueueOfSizeTwo PASSED
+testArrayStackOfSizeThree PASSED
+ValidParentheses.testIsValid PASSED
+```
