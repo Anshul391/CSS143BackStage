@@ -54,4 +54,14 @@ On the countrary, the following are not "valid" parentheses string:
 - []{{]}
 
 ### Tests for ValidParentheses.isValid (10pt)
+Add tests for your isValid function in ValidParentheses.testIsValid(). A sample of test cases have been provided:
+```java
+public static boolean testIsValid() {
+    String[] inputs = {"(}","{}()", ")[]("};
+    boolean[] expected = {false, true, false};
 
+    // homework
+    return false; // place holder
+}
+```
+Complete the test calls and verficiation. Also add at least another 5 different test cases (1 pt for each case).
