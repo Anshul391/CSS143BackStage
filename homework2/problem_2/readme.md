@@ -51,6 +51,5 @@ On the countrary, the following are not "valid" parentheses string:
 - )(
 - []{{]}
 
-### Tests for ValidParentheses.isValid()
-
+### Tests for ValidParentheses.isValid (10pt)
 
