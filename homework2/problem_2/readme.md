@@ -1,16 +1,24 @@
-## (30pt) Bubble Sort
+## (40pt) Stack ADT Using Array
 
-Write a function to bubble sort in place in an integer array. Also write as many tests as you think necessary to demonstrate your bubble sort code works correctly. 
+In the class we have seen the example of a Queue ADT using array. In this problem you will implement a stack ADT similarly also using array.
 
-Bubble sort was also discussed in class. If you need help understanding it, [here](https://www.geeksforgeeks.org/bubble-sort/) is a good start. 
+A stack is defined as a FIRST IN LAST OUT data structure with the following operations:
 
-A basic code structure is provided at [homework1/problem_2/src/Main.java](https://github.com/pdgetrf/CSS143B/tree/master/homework/homework1/problem_2/src/Main.java). This file **must** be used and no change can be made to the main function (line 7, 8 and 9). 
+- boolean push(int v) : add an integer v onto the top stack, and return a boolean indicating whether push was successful
+- boolean pop() : remove an integer from the top of the stack, and return a boolean indicating whether pop was successful
+- int peek() : return the value at the top of the stack
 
-When the homework is done, your code should print:
+### The ArrayStack Class (10pt)
+Following the exmaple of ArrayQueue from class, implement the following functions in ArrayStack.java:
+- push
+- pop
+- peek
+- constructor ArrayStack
 
-```bash
-testBubbleSort PASSED
-```
+### Tests for the ArrayStack Class (10pt)
+Following the exmaple of ArrayStack from class, implement the following functions in Tests.java:
+- testArrayStackOfSizeOne
+- testArrayStackOfSizeTwo
+- testArrayStackOfSizeThree
 
-
-
+Note that push, pop and peek all need to be verified in these tests.
