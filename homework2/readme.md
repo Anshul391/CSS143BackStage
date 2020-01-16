@@ -10,9 +10,9 @@ Put your solutions into 4 folders called problem_1, problem_2, problem_3 and pro
     
 ### Problems To Solve
 
-There are 4 problems. 
+There are 3 problems. 
 
-Problem 1, 2 and 3 and 4 are all in their separate folders with description. 
+Problem 1, 2 and 3 are all in their separate folders with description. 
     
 ### Notes
 
