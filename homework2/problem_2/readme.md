@@ -29,16 +29,27 @@ Note that push, pop and peek all need to be verified in these tests.
 
 Now that you finished the awesome Stack ADT, let's put it to some use to solve the following problem.
 
-The task is to use Stack to check if the given parentheses string is *valid*. A "valid" parentheses string can be:
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', implement the ValidParentheses.isValid() in ValidParentheses to determind if the input string is valid.
+
+An input string is valid if:
+
+- Open brackets must be closed by the same type of brackets, and 
+- Open brackets must be closed in the correct order.
+
+An empty string is also considered valid.
+
+Here are some examples of valid parentheses:
 - empty
-- ()
-- (()) and ()()
-- ((())), (()()), ()()(), ()(())
+- {}
+- ()[]{}
+- ([]) and []()
+- ({[]}), [()()], ()[](), {}[[]]
 
 On the countrary, the following are not "valid" parentheses string:
-- (()
-- ()())
+- ((]
+- [)(}
 - )(
+- []{{]}
 
 
 
