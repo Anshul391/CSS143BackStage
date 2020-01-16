@@ -39,4 +39,5 @@ The return values of getMin() is smilar to what we had in findMax(). If the mini
 ### Add tests to verify getMin() (10pt)
 Add at least 5 test cases. For example, the minimal element is at the top, middle or bottlom of a stack of size 0, 1, 2, 3. More cases are welcome. 2pt for each required 5 cases.
 
+On submission, similar to other homework problems, your code should only print info about tests succeeded or failed.
 
