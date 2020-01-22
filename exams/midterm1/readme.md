@@ -71,7 +71,7 @@ What is output by the above code?
 <br/>
 <br/>
 
-**5. (2pt) Consider the following code:**
+**6. (2pt) Consider the following code:**
 ```java
 public class Main {
     public static int foo1(int x, int y) {
