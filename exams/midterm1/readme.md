@@ -1,6 +1,9 @@
 ## 2020 Winter CSS143B Midterm 1 &nbsp; &nbsp; &nbsp; Student Name:
 
-**1. (2pt) the "void" methods?**
+**1. (2pt) The "void" methods like**
+```java
+void foo() {}
+```
 
 - (A) return Strings.
 - (B) return primitive type values.
