@@ -1,4 +1,4 @@
-## 2019 Winter CSS143B Midterm 1 &nbsp; &nbsp; &nbsp; Student Name:
+## 2020 Winter CSS143B Midterm 1 &nbsp; &nbsp; &nbsp; Student Name:
 
 **1. (2pt) the "void" methods?**
 
