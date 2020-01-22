@@ -243,6 +243,7 @@ public class ArrayQueue implements Queue {
   private int front;
   private int end;
   
+  // enqueue return true when enqueue is successful. false otherwise.
   @Override
   public boolean enqueue(int val) {
 
