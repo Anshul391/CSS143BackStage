@@ -209,7 +209,7 @@ public class Dog extends Animal{
       System.out.println("Dog " + getName() + " is outside playing");
 }
 ```
-Suppose there are a Cat object where name is "coco", and a dog object where name is "Mika", what's the output of the following code
+Suppose there are a Cat object where name is "Coco", and a dog object where name is "Mika", what's the output of the following code
 ```java
 Animal animals[] = new Animal[2];
 animals[0] = dogNamedMika;
