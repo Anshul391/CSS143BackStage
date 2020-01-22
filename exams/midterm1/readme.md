@@ -264,7 +264,7 @@ public class ArrayQueue implements Queue {
 <br/>
 <br/>
 
-**18. (5pt) What's the difference between an abstract class and an interface?
+**18. (5pt) What's the difference between an abstract class and an interface?**
 <br/>
 <br/>
 <br/>
