@@ -103,7 +103,7 @@ Hint: answer in terms of function signature AND class relationship (same class v
 ```java
 int mid = (start + end)/2;
 ```
-what's the issue with the above code and how to fix it?
+what's the potential issue with the above code and how to fix it?
 <br/>
 <br/>
 <br/>
