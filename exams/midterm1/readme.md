@@ -151,7 +151,7 @@ public class Student {
   String name;
 }
 ```
-Implement the constructor, setter and getter for this class
+Implement the constructor, setter and getter functions for this class
 <br/>
 <br/>
 <br/>
