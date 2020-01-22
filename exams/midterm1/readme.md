@@ -162,7 +162,17 @@ Implement the constructor, setter and getter for this class
 <br/>
 <br/>
 
-**13. (5pt) What does "late binding" mean? **
+**13. (5pt) What does "late binding" mean?**
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **14. (15pt) Write a function check if an array is sorted in ascending order**
 ```java
