@@ -25,7 +25,6 @@ a.y = 7;
 System.out.println(b.x + " " + b.y);
 ```
 What is output by the above code?
-
 - (A) 2 7
 - (B) 6 2
 - (C) 2 2
@@ -37,7 +36,6 @@ What is output by the above code?
 public static void foo(String str) {
   str.concat("rains too much");
 }
-
 public static void main(String[] args) {
   String str = "seattle ";
   foo(str);
@@ -47,3 +45,30 @@ What is output by the above code?
 <br/>
 <br/>
 <br/>
+<br/>
+
+**4. (2pt) Single choice:**
+The ***new*** operator
+- (A) creates an object of a class.
+- (B) returns the memory location of a pre-existing object.
+- (C) is required when declaring a class-type variable.
+- (D) must always be used in the assignment of a class-type variable.
+
+**5. (2pt) Consider the following code:**
+```java
+public static void foo(StringBuilder builder) {
+  builder.append("is blue");
+}
+public static void main(String[] args) {
+  String str = "sky ";
+  foo(str);
+  System.out.println("After calling foo: " + str);
+}
+```
+What is output by the above code?
+<br/>
+<br/>
+<br/>
+<br/>
+
+
