@@ -187,13 +187,13 @@ public class Cat extends Animal {
   private String furColor;
   @Override
   public void play() {
-      System.out.println(furColor + " cat " + getName() + " is sleeping");
+      System.out.println("Cat " + getName() + " is sleeping");
 }
 public class Dog extends Animal{
   private String owner;
   @Override
   public void play() {
-      System.out.println(furColor + " dog " + getName() + " is outside playing");
+      System.out.println("Dog " + getName() + " is outside playing");
 }
 ```
 Suppose there are a Cat object where name is "coco", and a dog object where name is "Mika", what's the output of the following code
