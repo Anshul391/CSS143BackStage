@@ -58,9 +58,10 @@ public static void foo(StringBuilder builder) {
   builder.append("is blue");
 }
 public static void main(String[] args) {
-  String str = "sky ";
-  foo(str);
-  System.out.println("After calling foo: " + str);
+  StringBuilder builder = new StringBuilder();
+  builder.append("sky ");
+  foo(builder);
+  System.out.println("After calling foo: " + builder.toString());
 }
 ```
 What is output by the above code?
