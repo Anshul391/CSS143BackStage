@@ -162,4 +162,52 @@ Implement the constructor, setter and getter for this class
 <br/>
 <br/>
 
+**13. (5pt) What does "late binding" mean? **
 
+**14. (15pt) Write a function check if an array is sorted in ascending order**
+```java
+public static void isSortedAscending(int[] data) {
+
+
+
+
+
+
+
+}
+```
+
+**15. (5pt) For the following code:**
+```java
+public abstract class Animal {
+  private String name;
+  public abstract void play();
+}
+public class Cat extends Animal {
+  private String furColor;
+  @Override
+  public void play() {
+      System.out.println(furColor + " cat " + getName() + " is sleeping");
+}
+public class Dog extends Animal{
+  private String owner;
+  @Override
+  public void play() {
+      System.out.println(furColor + " dog " + getName() + " is outside playing");
+}
+```
+Suppose there are a Cat object where name is "coco", and a dog object where name is "Mika", what's the output of the following code
+```java
+Animal animals[] = new Animal[2];
+animals[0] = dogNamedMika;
+animals[1] = catNamedCoco;
+for (int i=0; i<animals.length; i++) {
+  animals[i].play();
+}
+```
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
