@@ -1,16 +1,11 @@
 ## 2019 Winter CSS143B Midterm 1 &nbsp; &nbsp; &nbsp; Student Name:
 
+**1. (2pt) the "void" methods?**
 
-**1. (2pt) Single choice. Consider the following definition of a method in a class:**
-```java
-public void doThis(int x, double y)
-```
-Which of the following is a legitimate case of overloading doThis in the class definition?
-
-- (A) private void doThis(int x, double y)
-- (B) public void doThis(int a, double b)
-- (C) public void doThis(int a, double b, double c)
-- (D) public void doThis(int x, int y)
+- (A) return Strings.
+- (B) return primitive type values.
+- (C) have no return value.
+- (D) return class-type values.
 
 **2. (2pt) Single choice.**
 Given we have a class FooClass that has two public instance variables, x and y, both of which are int and are each set to 2 on instantiation of an instance of the class.
