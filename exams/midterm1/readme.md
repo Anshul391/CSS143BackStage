@@ -257,7 +257,7 @@ public class ArrayQueue implements Queue {
 }
 ```
 
-**17. (5pt) What are the pros and cons of implementing stack and queue using array in terms of size and performance?***
+**17. (5pt) What are the pros and cons of implementing stack and queue using array in terms of size and performance?**
 <br/>
 <br/>
 <br/>
