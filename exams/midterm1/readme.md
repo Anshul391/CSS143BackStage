@@ -92,7 +92,18 @@ What is output by the above code?
 <br/>
 
 **7. (4pt) what's the difference between overload and override?**
-<br/> Hint: answer in terms of signature AND class relationship (same class vs different class)
+Hint: answer in terms of function signature AND class relationship (same class vs different class)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+**8. (4pt) In binary search**
+```java
+int mid = (start + end)/2;
+```
+what's the issue with the above code and how to fix it?
 <br/>
 <br/>
 <br/>
