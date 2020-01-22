@@ -100,6 +100,7 @@ Hint: answer in terms of function signature AND class relationship (same class v
 <br/>
 
 **8. (4pt) In binary search**
+
 ```java
 int mid = (start + end)/2;
 ```
@@ -111,7 +112,8 @@ what's the issue with the above code and how to fix it?
 <br/>
 
 **9. (10pt) Write a function to reverse an integer array in place**
-For example, if the input is [3,2,1], the output should be [1,2,3]
+
+For example, if the input is [3,2,1,4], the output should be [4,1,2,3]
 ```java
 public static void reverse(int[] values) {
 
@@ -125,9 +127,39 @@ public static void reverse(int[] values) {
 ```
 
 **10. (5pt) What's the issue with the following testing logic for the above code?**
+
 "For any given array, for example [3,2,1], call the reverse function twice. By reversing the input array twice, the input array should now be the same as before calling any reverse function."
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
+**11. (5pt) How would you test your reverse function? Write down the test cases as you think necessary**
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+**12. (5pt) Given the following class**
+```java
+public class Student {
+  int age;
+  String name;
+}
+```
+Implement the constructor, setter and getter for this class
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
