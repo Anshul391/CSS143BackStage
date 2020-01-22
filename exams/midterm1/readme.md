@@ -177,7 +177,7 @@ public static void isSortedAscending(int[] data) {
 }
 ```
 
-**15. (5pt) For the following code:**
+**15. (10pt) For the following code:**
 ```java
 public abstract class Animal {
   private String name;
@@ -206,6 +206,55 @@ for (int i=0; i<animals.length; i++) {
 }
 ```
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+**16. (15pt) Implement the enqueue() function for ArrayQueue that stores data circularly in the internal array***
+
+The interface of the Array Queue is 
+```java
+public interface Queue {
+  boolean enqueue(int val);
+  QueueElement dequeue();
+  int size();
+}
+```
+
+And the ArrayQueue is 
+```java
+public class ArrayQueue implements Queue {
+
+  private int data[];
+  private int size;
+
+  // data removed from this side --> [front....end] <-- data added from this side
+  private int front;
+  private int end;
+  
+  @Override
+  public boolean enqueue(int val) {
+
+
+
+
+
+
+
+
+}
+```
+
+**17. (5pt) What are the pros and cons of implementing stack and queue using array in terms of size and performance?***
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+**18. (5pt) What's the difference between an abstract class and an interface?
 <br/>
 <br/>
 <br/>
