@@ -1,4 +1,4 @@
-## 2019 Autumn CSS342 C Midterm &nbsp; &nbsp; &nbsp; Student Name:
+## 2019 Winter CSS143B Midterm 1 &nbsp; &nbsp; &nbsp; Student Name:
 
 
 **1. (2pt) Single choice. Consider the following definition of a method in a class:**
