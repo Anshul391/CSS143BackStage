@@ -71,4 +71,22 @@ What is output by the above code?
 <br/>
 <br/>
 
-
+**5. (2pt) Consider the following code:**
+```java
+public class Main {
+    public static int foo1(int x, int y) {
+        return x*2+y+3;
+    }
+    public static double foo1(double x, double y) {
+        return x+y;
+    }
+    public static void main(String[] args) {
+        System.out.println(foo1(10.0, 20.5) + " " + foo1(3, 4));
+    }
+}
+```
+What is output by the above code?
+<br/>
+<br/>
+<br/>
+<br/>
