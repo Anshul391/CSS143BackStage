@@ -222,7 +222,7 @@ for (int i=0; i<animals.length; i++) {
 <br/>
 <br/>
 
-**16. (15pt) Implement the enqueue() function for ArrayQueue that stores data circularly in the internal array***
+**16. (15pt) Implement the enqueue() function for ArrayQueue that stores data circularly in the internal array**
 
 The interface of the Queue is 
 ```java
