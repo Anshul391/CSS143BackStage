@@ -202,12 +202,14 @@ public class Cat extends Animal {
   @Override
   public void play() {
       System.out.println("Cat " + getName() + " is sleeping");
+  }
 }
 public class Dog extends Animal{
   private String owner;
   @Override
   public void play() {
       System.out.println("Dog " + getName() + " is outside playing");
+  }
 }
 ```
 Suppose there are a Cat object where name is "Coco", and a dog object where name is "Mika", what's the output of the following code
