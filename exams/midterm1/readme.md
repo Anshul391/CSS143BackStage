@@ -195,6 +195,7 @@ public static void isSortedAscending(int[] data) {
 public abstract class Animal {
   private String name;
   public abstract void play();
+  public String getName() { return name;  }
 }
 public class Cat extends Animal {
   private String furColor;
