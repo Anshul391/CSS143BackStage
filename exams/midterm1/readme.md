@@ -179,7 +179,7 @@ Implement the constructor, setter and getter functions for this class
 
 **14. (15pt) Write a function check if an array is sorted in ascending order**
 ```java
-public static void isSortedAscending(int[] data) {
+public static boolean isSortedAscending(int[] data) {
 
 
 
