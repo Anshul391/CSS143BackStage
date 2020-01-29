@@ -1,0 +1,66 @@
+Optional vs null
+
+GC, memory leak detection through profiling
+
+google library checkNotNull
+
+protected constructor
+
+static constructor static of()
+
+allocate data on class definition
+
+class abc {
+	List<Something> mylist = new List<>()
+}
+
+
+// how does implements Serializable work?
+public class Abc implements Serializable {
+}
+
+new vs dependency injection, decoupling
+
+
+testing, mock, stubs
+
+
+// when I wrote this, only God and I understand what I was doing
+// now, God only knows.
+
+Beck's Rule for Simple Design
+	- Passes all the tests
+	- Reveal intention
+	- No duplication
+	- Fewest elements
+
+Avoid primtive obsession
+
+code like a story, not a puzzle
+
+prefer clear code vs clever code
+
+On Writing Well by William Zinsser
+	- Simplicy
+	- Clarity
+	- Brevity
+	- Humanity
+
+homework 3: take your first homework, watch this video, and explain how it can be improved
+
+add slides to talk about Java List interface, difference between ArrayList and LinkedList
+	- insertion/deletion complexity
+	- linkedList as doube linked list
+	- do a actual time comparison between 
+		-- inserting in array list and linked list
+		-- get
+
+start with this question
+
+byte code 
+	- stack architecture
+
+reference takes 4 bytes even though the underlying system is 64-bit
+
+
+
