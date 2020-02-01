@@ -147,7 +147,8 @@ the idea is to swap elements from front and end till reaching middle. this needs
 <br/>
 
 ANS:
-this logic does not verify the code works correctly. if the reverse does nothing, test still passes
+this logic does not verify the code works correctly. if the reverse does nothing, test still passes.
+
 if reverse is correct, then this test will pass. but when test passes, the code being tested is not necessarily correct.
 
 **11. (5pt) How would you test your reverse function? Write down the test cases as you think necessary**
