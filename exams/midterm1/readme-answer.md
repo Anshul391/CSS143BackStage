@@ -257,6 +257,7 @@ for (int i=0; i<animals.length; i++) {
 <br/>
 
 ANS:
+
 Cat Coco is sleeping
 
 Dog Mika is outside playing
