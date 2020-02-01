@@ -258,6 +258,7 @@ for (int i=0; i<animals.length; i++) {
 
 ANS:
 Cat Coco is sleeping
+
 Dog Mika is outside playing
 
 **16. (15pt) Implement the enqueue() function for ArrayQueue that stores data circularly in the internal array**
