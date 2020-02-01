@@ -109,8 +109,9 @@ int mid = (start + end)/2;
 ```
 what's the potential issue with the above code and how to fix it?
 <br/>
-<br/>
 
+
+ANS:
 interger overflow. to fix, change it to 
 ```java
 int mid = start + (end-start)/2;
