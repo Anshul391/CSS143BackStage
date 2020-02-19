@@ -236,7 +236,21 @@ Here's an example out-of-balance binary search tree:
 
 ```
 
-**15. (20pt) Answer the following questions about the climbing stair problem**
+**15. (5pt) What is the difference in internal data structure choice between the ArrayList and LinkedList from java.util? And for a problem that will repeatedly add or remove data, which one should you choose and why?
+
+```bash
+
+
+
+
+
+
+
+
+```
+
+
+**16. (15pt) Answer the following questions about the climbing stair problem**
 
 For a staircase with  *n (n>0)* steps. If each time you can either climb 1 or 2 steps. 
 
