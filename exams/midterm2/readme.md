@@ -122,9 +122,6 @@ Which of the following is wrong:
 
 
 
-
-
-
 ```
 
 **11. (15pt) Write code to find the height of a binary tree**
@@ -153,8 +150,6 @@ The height of the tree is 3. The definition of a binary tree is
 ```java
 class Solution {
     public int maxDepth(TreeNode root) {
-      
-      
       
       
       
@@ -232,10 +227,6 @@ Here's an example out-of-balance binary search tree:
 
 
 
-
-
-
-
 ```
 
 **15. (5pt) What is the difference in internal data structure choice between the ArrayList and LinkedList from java.util? And for a problem that will repeatedly add or remove data, which one should you choose and why?**
@@ -275,9 +266,6 @@ class Solution {
 This recursive solution is not efficient in terms of performance. The running time grows exponentially as *n* becomes larger. What is the reason? And how would you fix it?
 
 ```bash
-
-
-
 
 
 
