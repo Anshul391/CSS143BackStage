@@ -42,7 +42,6 @@
 - (D) It can be traversed in more than one ways
 ```bash
 
-
 ```
 **6. (15pt) Write the code to reverse a single linked list ITERATIVELY.** 
 
