@@ -105,7 +105,7 @@ Which of the following is wrong:
 - (A) It is always more efficent in performance than iterative method for solving the same problem
 - (B) It requires a stopping condition till the problem is small enough to be solved without recursion
 - (C) Backtracking is a kind of recursion algorithm
-- (D) A recursion solution can also be implement iteratively using a stack ADT
+- (D) A recursion solution can also be implemented iteratively using a stack ADT
 
 **10. (4pt) Describe how quicksort works and explain how its relation to recursion**
 
