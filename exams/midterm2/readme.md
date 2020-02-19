@@ -39,7 +39,7 @@
 - (C) Each node can only have two childern nodes
 - (D) It can be traversed in more than one ways
 
-**6. (15pt) Write the code to reverse a single linked list.** 
+**6. (15pt) Write the code to reverse a single linked list iteratively.** 
 
 Definition for the single linked list is
 
@@ -51,11 +51,12 @@ Definition for the single linked list is
  }
 ```
 
-The reverse function cannot 
+The reverse function ***CANNOT*** 
 
 - use any collection such as array, stack, queue
 - create any new node
 - change the content of val in any node
+- use recursion
 
 ```java
 class Solution {
@@ -245,15 +246,16 @@ Write the code to calculate how many how many unique ways can you climb to the t
 
 ```java
 class Solution {
-  
   public int climbStairs(int n) {
         
+    
+    
+    
   }
   
   
   
-  
-  
+ 
   
 }
 ```
@@ -280,4 +282,3 @@ This recursive solution is not efficient in terms of performance. The running ti
 
 
 ```
-
