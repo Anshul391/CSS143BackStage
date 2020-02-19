@@ -236,7 +236,7 @@ Here's an example out-of-balance binary search tree:
 
 ```
 
-**15. (5pt) What is the difference in internal data structure choice between the ArrayList and LinkedList from java.util? And for a problem that will repeatedly add or remove data, which one should you choose and why?
+**15. (5pt) What is the difference in internal data structure choice between the ArrayList and LinkedList from java.util? And for a problem that will repeatedly add or remove data, which one should you choose and why?**
 
 ```bash
 
