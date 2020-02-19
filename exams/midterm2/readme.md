@@ -40,9 +40,10 @@
 - (B) Each node can only have one parent node
 - (C) Each node can only have two childern nodes
 - (D) It can be traversed in more than one ways
+```bash
 
 
-
+```
 **6. (15pt) Write the code to reverse a single linked list ITERATIVELY.** 
 
 Definition for the list node is
