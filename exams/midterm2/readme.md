@@ -108,6 +108,7 @@ Which of the following is wrong:
 
 **10. (4pt) Describe how quicksort works and explain how its relation to recursion**
 
+```bash
 
 
 
@@ -115,6 +116,13 @@ Which of the following is wrong:
 
 
 
+
+
+
+
+
+
+```
 
 **11. (15pt) Write code to find the height of a binary tree**
 
@@ -186,11 +194,24 @@ post-order:
 
 **13. (10pt) What is the definition of a binary search tree? How would you check if a given tree is a binary search tree?**
 
+```bash
 
 
 
 
-**14. (5pt) If a binary search tree is too out-of-balanced like the following tree, how could affect the search performance?**
+
+
+
+
+
+
+
+
+```
+
+**14. (5pt) If a binary search tree is too out-of-balance  like the following tree, how could this affect the search performance?**
+
+Here's an example out-of-balance binary search tree:
 
 ```bash
        2
@@ -202,6 +223,7 @@ post-order:
              5
 ```
 
+```bash
 
 
 
@@ -211,6 +233,9 @@ post-order:
 
 
 
+
+
+```
 
 **15. (20pt) Answer the following questions about the climbing stair problem**
 
@@ -233,7 +258,9 @@ class Solution {
 }
 ```
 
-This recursive solution is not efficient in terms of performance. The running time grows exponentially as *n* becomes larger. What is the reason? And how do you fix it?
+This recursive solution is not efficient in terms of performance. The running time grows exponentially as *n* becomes larger. What is the reason? And how would you fix it?
+
+```bash
 
 
 
@@ -252,4 +279,5 @@ This recursive solution is not efficient in terms of performance. The running ti
 
 
 
+```
 
