@@ -14,7 +14,7 @@
 **2. (2pt) Which of the following naturally suggests a recursive solution?**
 
 - (A) printing a message to the console.
-- (B) binary search over an unsorted data set.
+- (B) binary search over a sorted data set.
 - (C) multiplication of two numbers.
 - (D) linear search over a set of characters.
 
