@@ -51,12 +51,12 @@ Definition for the single linked list is
  }
 ```
 
-The reverse function ***CANNOT*** 
+The reverse function 
 
-- use any collection such as array, stack, queue
-- create any new node
-- change the content of val in any node
-- use recursion
+- ***CANNOT*** use any collection such as array, stack, queue
+- ***CANNOT*** create any new node
+- ***CANNOT*** change the content of val in any node
+- ***CANNOT*** use recursion
 
 ```java
 class Solution {
