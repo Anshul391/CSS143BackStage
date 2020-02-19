@@ -107,7 +107,7 @@ Which of the following is wrong:
 - (C) Backtracking is a kind of recursion algorithm
 - (D) A recursion solution can also be implemented iteratively using a stack ADT
 
-**10. (4pt) Describe how quicksort works and explain how its relation to recursion**
+**10. (4pt) Describe how quicksort works and explain its relation to recursion**
 
 ```bash
 
