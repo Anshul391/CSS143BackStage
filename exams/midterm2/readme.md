@@ -29,7 +29,7 @@
 
 - (A) It has to have a dummy node
 - (B) It can be used to implement both Stack and Queue
-- (C) It can only be traversed from the beginning of the node
+- (C) Each node exists in heap memory
 - (D) Each node can hold various kind of values such as int, float or class object by its reference.
 
 **5. (2pt) Which of the following is NOT true for binary tree?**
