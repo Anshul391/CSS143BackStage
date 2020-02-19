@@ -6,24 +6,24 @@
 
 **1. (2pt) Which of the following is true comparing linked lists with java primitive arrays?**
 
-- (A) accessing a random element in a linked list requires, in the worst-case, a full traverse of the list.
-- (B) you can implement a stack using a linked list but not an array.
-- (C) both linked lists and arrays are random-access data structures.
-- (D) linked list and array can both change size as needed.
+- (A) Accessing a random element in a linked list requires, in the worst-case, a full traverse of the list.
+- (B) You can implement a stack using a linked list but not an array.
+- (C) Both linked lists and arrays are random-access data structures.
+- (D) Linked list and array can both change size as needed.
 
 **2. (2pt) Which of the following naturally suggests a recursive solution?**
 
-- (A) printing a message to the console.
-- (B) binary search over a sorted data set.
-- (C) multiplication of two numbers.
-- (D) linear search over a set of characters.
+- (A) Printing a message to the console.
+- (B) Binary search over a sorted data set.
+- (C) Multiplication of two numbers.
+- (D) Linear search over a set of characters.
 
 **3.（2pt) When implementing a Stack ADT using a linked list vs array, which statement is wrong?**
 
-- (A) array is faster for push and pop because linkedlist require traversing through
-- (B) linkedlist is better in terms of flexible stack size
-- (C) array and linked list can have equally quick pop and push implementation
-- (D) stack using linked list has slightly higher storage overhead comparing to array due to the additional node references
+- (A) Array is faster for push and pop because linkedlist requires traversal to access nodes
+- (B) Linkedlist is better in terms of flexible stack size
+- (C) Array and linked list can have equally quick pop and push implementation
+- (D) Stack using linked list has slightly higher storage overhead comparing to array due to the additional node references
 
 **4. (2pt) Which of the following is NOT true for a single linked list?**
 
