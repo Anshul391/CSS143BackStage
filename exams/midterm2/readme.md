@@ -240,7 +240,7 @@ Here's an example out-of-balance binary search tree:
 
 For a staircase with  *n (n>0)* steps. If each time you can either climb 1 or 2 steps. 
 
-Write the code to calculate how many how many unique ways can you climb to the top **recursively**. Ok to add helper function.
+Write the code to calculate how many how many unique ways can you climb to the top **recursively**.
 
 ```java
 class Solution {
