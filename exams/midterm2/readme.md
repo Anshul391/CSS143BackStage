@@ -55,7 +55,7 @@ Definition for the list node is
  }
 ```
 
-The reverse function 
+Assume the linked list **has dummy node**. The reverse function also:
 
 - ***CANNOT*** use any collection such as array, stack, queue
 - ***CANNOT*** create any new node
