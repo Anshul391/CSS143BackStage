@@ -162,8 +162,6 @@ class Solution {
       
       
       
-      
-      
         
     }
 }
@@ -210,7 +208,7 @@ post-order:
 
 ```
 
-**14. (5pt) If a binary search tree is too out-of-balance  like the following tree, how could this affect the search performance?**
+**14. (5pt) If a binary search tree is too out-of-balance like the following tree, how could this affect the search performance using this tree?**
 
 Here's an example out-of-balance binary search tree:
 
@@ -248,15 +246,13 @@ Write the code to calculate how many how many unique ways can you climb to the t
 class Solution {
   public int climbStairs(int n) {
         
+   
+    
+    
     
     
     
   }
-  
-  
-  
- 
-  
 }
 ```
 
