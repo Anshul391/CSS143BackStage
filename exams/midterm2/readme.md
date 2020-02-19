@@ -14,7 +14,7 @@
 **2. (2pt) Which of the following naturally suggests a recursive solution?**
 
 - (A) Printing a message to the console.
-- (B) Binary search over a sorted data set.
+- (B) Printing all valid combination of parentheses of *n* pairs
 - (C) Multiplication of two numbers.
 - (D) Linear search over a set of characters.
 
