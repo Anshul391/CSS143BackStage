@@ -88,10 +88,10 @@ class Solution {
 
 Which of the following is wrong:
 
-- (A) Variable p is in heap memory.
-- (B) Variable id is in stack memory.
-- (C) Variable pName is in stack memory.
-- (D) The ArrayList that reference p points to is in heap memory.
+- (A) Variable *p* is in heap memory.
+- (B) Variable *id* is in stack memory.
+- (C) Variable *pName* is in stack memory.
+- (D) The ArrayList that reference *p* points to is in heap memory.
 
 **8.(2pt) Which of the following is wrong about heap and stack memory?**
 
