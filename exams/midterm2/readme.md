@@ -4,7 +4,9 @@
 
 **All choice questions are single choice**
 
-**1. (2pt) Which of the following is true comparing linked lists with java primitive arrays?**
+**By "array" or "Java array", it means the primitive Java array like int[], not collection like ArrayList**
+
+**1. (2pt) Which of the following is true comparing linked lists with Java arrays?**
 
 - (A) Accessing a random element in a linked list requires, in the worst-case, a full traverse of the list.
 - (B) You can implement a stack using a linked list but not an array.
