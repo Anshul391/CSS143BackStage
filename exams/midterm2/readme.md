@@ -121,7 +121,6 @@ Which of the following is wrong:
 
 
 
-
 ```
 
 **11. (15pt) Write code to find the height of a binary tree**
@@ -149,7 +148,7 @@ The height of the tree is 3. The definition of a binary tree is
 
 ```java
 class Solution {
-    public int maxDepth(TreeNode root) {
+    public int height(TreeNode root) {
       
       
       
@@ -158,8 +157,6 @@ class Solution {
       
       
       
-      
-        
     }
 }
 ```
