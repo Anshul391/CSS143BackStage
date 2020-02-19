@@ -18,7 +18,7 @@
 - (C) multiplication of two numbers.
 - (D) linear search over a set of characters.
 
-**3.（2pt) When implementing a Stack ADT using a linked list vs array, which statement is wrong? **
+**3.（2pt) When implementing a Stack ADT using a linked list vs array, which statement is wrong?**
 
 - (A) array is faster for push and pop because linkedlist require traversing through
 - (B) linkedlist is better in terms of flexible stack size
