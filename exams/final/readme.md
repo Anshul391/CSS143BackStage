@@ -182,7 +182,7 @@ post-order:
 
 ```
 
-2. (5pt) This tree also happens to be a heap tree. Write down how this tree is stored as a heap that's implemented using an array
+2. (5pt) This tree also happens to be a bianry heap tree. Write down how this tree can be stored as a heap using an array
 
 ```bash
 
