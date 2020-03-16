@@ -354,6 +354,11 @@ Input:     3         3
           / \       / \
          1   8     8   1
 Output: false
+
+Input:     3         2
+          / \       / \
+         1   8     1   8
+Output: false
 ```
 
 An empty tree is identical to an empty tree.
