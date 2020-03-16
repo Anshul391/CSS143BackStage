@@ -71,7 +71,7 @@ In the lecture we saw the following code that calculate and sort the word freque
 
 Answer the following question about this code:
 
-1. (2pt) Explain why the entry value of the variable ***sortedMap*** is a Set instead of a String.
+6.1 (2pt) Explain why the entry value of the variable ***sortedMap*** is a Set instead of a String.
 
 ```bash
 
@@ -80,7 +80,7 @@ Answer the following question about this code:
 
 ```
 
-2. (3pt) Why is ***sortedMap*** defined as a TreeMap instead of HashMap? 
+6.2 (3pt) Why is ***sortedMap*** defined as a TreeMap instead of HashMap? 
 
 ```bash
 
@@ -88,7 +88,7 @@ Answer the following question about this code:
 
 ```
 
-3. (3pt) Supposed ***wordMap*** has the following data:
+6.3 (3pt) Supposed ***wordMap*** has the following data:
 
 ```bash
 and : 8
@@ -106,7 +106,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-4. (2pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
+6.4 (2pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
 
 ```bash
 
@@ -169,7 +169,7 @@ Please list the problem of the above code in terms of code quality and then prov
    5
 ```
 
-1. (15pt) What is the pre-order, in-order and post-order traversal of the following tree
+9.1 (15pt) What is the pre-order, in-order and post-order traversal of the following tree
 ```bash
 pre-order:
 
@@ -183,7 +183,7 @@ post-order:
 
 ```
 
-2. (5pt) This tree also happens to be a bianry heap tree. Write down how this tree can be stored as a heap using an array
+9.2 (5pt) This tree also happens to be a bianry heap tree. Write down how this tree can be stored as a heap using an array
 
 ```bash
 
@@ -195,7 +195,7 @@ post-order:
 
 **10. (20pt) Write the code to iteratively reverse THE SECOND HALF of a single linked list in place.**
 
-1. (15pt) Write the code given the following list node definition
+10.1 (15pt) Write the code given the following list node definition
 
    ```java
    public class ListNode {
@@ -230,7 +230,7 @@ public class Solution {
 
 
 
-2. (5pt) What's the time complexity of your code in big O notation ?
+10.2 (5pt) What's the time complexity of your code in big O notation ?
 
 ```bash
 
@@ -268,34 +268,34 @@ public class Cat extends Animal {
 }
 ```
 
-1. (2pt) Why does the keyword ***abstract*** do in the definition of ***speak()***  in Animal class?
+11.1 (2pt) Why does the keyword ***abstract*** do in the definition of ***speak()***  in Animal class?
 
 ```bash
 
 
 ```
 
-2. (2pt) What does ***"@Override"*** mean?
+11.2 (2pt) What does ***"@Override"*** mean?
 
 ```bash
 
 
 ```
 
-3. (2pt) What does the call to ***super(name, gender, age)*** do?
+11.3 (2pt) What does the call to ***super(name, gender, age)*** do?
 
 ```bash
 
 ```
 
-4. (2pt) The ***Animal*** class is defined as an abstract class. But Java also has ***interface*** type. What's the difference between an abstract class and interface in Java?
+11.4 (2pt) The ***Animal*** class is defined as an abstract class. But Java also has ***interface*** type. What's the difference between an abstract class and interface in Java?
 
 ```bash
 
 
 ```
 
-5. (2pt) What is the output of the following code?
+11.5 (2pt) What is the output of the following code?
 
 ```java
 Animal animal;
@@ -325,7 +325,7 @@ A binary tree node is defined as the following:
  }
  ```
 
-1. (10pt) Write your solution in 
+12.1 (10pt) Write your solution in 
 
 ```java
 class Solution {
@@ -356,7 +356,7 @@ Output: false
 
 An empty tree is identical to an empty tree.
 
-2. (10pt) Write a test plan for your code. List your proposed test cases with specific binary tree inputs. No need to write actual code.
+12.2 (10pt) Write a test plan for your code. List your proposed test cases with specific binary tree inputs. No need to write actual code.
 
 ```bash
 
