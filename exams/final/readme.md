@@ -4,21 +4,21 @@
 
 **All choice questions are single choice**
 
-**1. (2pt) Which of the following statement about sorting algorithm is FALSE?**
+**1. (2pt) Which of the following statements about sorting algorithm is FALSE?**
 
 - (A) Heap sort has O(1) space complexity
 - (B) Quicksort is a stable sorting algorithm
 - (C) Bubble sort has O(n^2) time complexity, n square that is
 - (D) Merge sort can be implemented by recursion
 
-**2. (2pt) Which of the following statement about Stack and Queue ADT is FALSE?**
+**2. (2pt) Which of the following statements about Stack and Queue ADT is FALSE?**
 
 - (A) Stack is First-In-Last-Out
 - (B) Queue is Last-In-Last-Out
 - (C) Stack can be used to implement a recursive algorithm iteratively
 - (D) Queue is implemented with array so its size is limited by the initial capacity
 
-**3. (2pt) Which of the following statement about software testing is FALSE?**
+**3. (2pt) Which of the following statements about software testing is FALSE?**
 
 - (A) JUnit is a Java testing framework
 - (B) Testing can be done by comparing actual results from running code with known expcted result  
