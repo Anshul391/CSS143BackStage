@@ -375,7 +375,7 @@ An empty tree is identical to an empty tree.
 
 ```
 
-**(10pt) Bonus Points**
+**(10pt) Bonus Points 1**
 
 For the "unique path" problem we dicussed in lecture, the following recursion solution was given
 
@@ -411,5 +411,6 @@ Discuss the big O time complexity of this iterative method.
 
 ```
 
-
+**(5pt) Bonus Points 2**
+List all 3 movies that were mentioned as examples in the lectures.
 
