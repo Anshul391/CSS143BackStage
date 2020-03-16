@@ -106,7 +106,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-6.4 (2pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
+6.4 (2pt) Analyze and produce the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
 
 ```bash
 
