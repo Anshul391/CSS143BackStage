@@ -105,7 +105,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-4. (4pt) Analyze the time complexity for generating data in ***sortedMap*** in big O notation? This is referring to the 2nd block of the above code
+4. (4pt) Describe what the given code does in a few sentences.
 
 ```bash
 
