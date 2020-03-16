@@ -22,7 +22,7 @@
 
 - (A) JUnit is a Java testing framework
 - (B) Testing can be done by comparing actual results from running code with known expcted results  
-- (C) Test cases need to cover both possible data inputs and code paths
+- (C) Test cases should cover both possible data inputs and code paths
 - (D) If my test passes, my code is correct
 
 **4. (2pt) Which of the following statements about the dictionary ADT is FALSE?**
