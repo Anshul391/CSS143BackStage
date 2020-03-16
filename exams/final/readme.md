@@ -169,7 +169,7 @@ Please list the problem of the above code in terms of code quality and then prov
    5
 ```
 
-9.1 (15pt) What is the pre-order, in-order and post-order traversal of the following tree
+9.1 (15pt) What is the pre-order, in-order and post-order traversal of the above tree
 ```bash
 pre-order:
 
