@@ -317,7 +317,7 @@ animal.speak();
 
 **12. (20pt) Write the code to check if two binary trees are identical**
 
-Hint: think recursively.
+Hint: go recursively.
 
 A binary tree node is defined as the following:
 
