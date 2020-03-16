@@ -32,6 +32,8 @@
 - (C) Dictionary can be implemented with array
 - (D) The hash function that generates hash key needs to have low complexity (in another words, FAST)
 
+
+
 **5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from the repo?**
 
 ```bash
@@ -108,7 +110,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-**7. (5pt) Improve the following code for better code quality? **
+**7. (5pt) Improve the following code for better code quality?**
 
 ```java
         Stack<Integer> test1 = new Stack<Integer>();
@@ -135,6 +137,13 @@ What is the corresponding data in ***sortedMap***?
 ```
 
 Please list what is the problem with the above code and then give the new code that does the same but with improved quality.
+
+```bash
+
+
+```
+
+
 
 **8. (5pt) Heap can be used to implement a priority queue. However, when the items in the priority queue has the same priority, dequeue() should fall back to the FIFO rule like regular queue, which heap cannot guarentee. Describe your design to solve this problem.**
 
