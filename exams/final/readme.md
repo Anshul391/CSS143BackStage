@@ -32,7 +32,7 @@
 - (C) Dictionary can be implemented with array
 - (D) The hash function that generates hash key needs to have low complexity (in another words, FAST)
 
-**5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from the repo? **
+**5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from the repo?**
 
 ```bash
 
