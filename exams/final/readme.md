@@ -58,6 +58,7 @@ In the lecture we saw the following code that calculate and sort the word freque
         }
 
         // sort the map based on number of occurrences
+	// 2nd block starts here
         TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
         for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
             int key = entry.getValue();
@@ -105,7 +106,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-4. (4pt) Describe what the given code does in a few sentences.
+4. (4pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
 
 ```bash
 
