@@ -220,7 +220,7 @@ The reversal is to be done **in place** like the regular iterative reversal.
 
 ```java
 public class Solution {
-      public void reverse(ListNode head) {
+      public void reverse2ndHalf(ListNode head) {
       // your code here
       // head is the dummy node
     }
