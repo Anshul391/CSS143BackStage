@@ -16,7 +16,7 @@
 - (A) Stack is First-In-Last-Out
 - (B) Queue is Last-In-Last-Out
 - (C) Stack can be used to implement a recursive algorithm iteratively
-- (D) Queue is implemented with array so its size is limited by the initial capacity
+- (D) Queue can only be implemented with array so its size is limited by the initial capacity
 
 **3. (2pt) Which of the following statements about software testing is FALSE?**
 
