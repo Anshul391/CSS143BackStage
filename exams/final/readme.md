@@ -34,7 +34,7 @@
 
 
 
-**5. (2pt) Suppose you accidently added a .class file to your github repository, and you know you shouldn't check in .class files. Describe the steps you'd take to remove this file from your github repo?**
+**5. (2pt) Suppose you are using a Github repository for one of the dreadful homeworks. You have been working on you laptop with a clone of that repo. On the day before the due date the laptop decides that it won't start at all. Realizing that you happen to have another laptop available, describe how you would recover your work onto it from Github and continue to finish the homework on time. List specific git commands you would use.**
 
 ```bash
 
