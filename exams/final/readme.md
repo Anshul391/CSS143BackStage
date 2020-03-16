@@ -80,7 +80,7 @@ Answer the following question about this code:
 
 ```
 
-2. (2pt) Why is ***sortedMap*** defined as a TreeMap instead of HashMap? 
+2. (3pt) Why is ***sortedMap*** defined as a TreeMap instead of HashMap? 
 
 ```bash
 
@@ -88,7 +88,7 @@ Answer the following question about this code:
 
 ```
 
-3. (2pt) Supposed ***wordMap*** has the following data:
+3. (3pt) Supposed ***wordMap*** has the following data:
 
 ```bash
 and : 8
@@ -106,7 +106,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-4. (4pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
+4. (2pt) Analyze the time complexity for the code that generates data into ***sortedMap***. It's the 2nd block of the given code. Note that this involves accessing the wordMap and inserting data into the ***sortedMap***, which is of type ***TreeMap***. The result will be in terms of number of word ***n***.
 
 ```bash
 
