@@ -1,6 +1,6 @@
 
 
-## 2020 Winter CSS143B Final &nbsp; &nbsp; &nbsp; Student Name:
+## 2020 Winter CSS143B Final Exam &nbsp; &nbsp; &nbsp; Student Name:
 
 **All choice questions are single choice**
 
