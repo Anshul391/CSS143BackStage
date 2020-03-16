@@ -76,11 +76,13 @@ Answer the following question about this code:
 
 
 
+
 ```
 
 2. (2pt) Why is ***sortedMap*** defined as a TreeMap instead of HashMap? 
 
 ```bash
+
 
 
 ```
@@ -106,6 +108,7 @@ What is the corresponding data in ***sortedMap***?
 4. (4pt) Analyze the time complexity for generating ***sortedMap*** in big O notation?
 
 ```bash
+
 
 
 ```
@@ -141,14 +144,13 @@ Please list what is the problem with the above code and then give the new code t
 ```bash
 
 
-```
 
+```
 
 
 **8. (5pt) Heap can be used to implement a priority queue. However, when the items in the priority queue has the same priority, dequeue() should fall back to the FIFO rule like regular queue, which heap cannot guarentee. Describe your design to solve this problem.**
 
 ```bash
-
 
 
 
@@ -167,7 +169,7 @@ Please list what is the problem with the above code and then give the new code t
 ```
 
 1. (15pt) What is the pre-order, in-order and post-order traversal of the following tree
-
+```bash
 pre-order:
 
 
@@ -178,7 +180,7 @@ In-order:
 
 post-order:
 
-
+```
 
 2. (5pt) This tree also happens to be a heap tree. Write down how this tree is stored as a heap that's implemented using an array**
 
@@ -225,6 +227,8 @@ The reversal is to be done **in place** like the regular iterative reversal.
 
 ```bash
 
+
+
 ```
 
 
@@ -261,11 +265,13 @@ public class Cat extends Animal {
 
 ```bash
 
+
 ```
 
 2. (2pt) What does "@Override" mean?
 
 ```bash
+
 
 ```
 
@@ -278,6 +284,7 @@ public class Cat extends Animal {
 4. (2pt) The ***Animal*** class is defined as an abstract class. But Java also has ***interface***. What's the difference between an abstract class and interface in Java?
 
 ```bash
+
 
 ```
 
@@ -339,9 +346,10 @@ An empty tree is identical to an empty tree.
 
 ```bash
 
+
+
+
 ```
-
-
 
 ***Bonus Points***
 
