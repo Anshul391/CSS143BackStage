@@ -249,7 +249,9 @@ public abstract class Animal {
     private String name;
     private String gender;
     private int age;
+    
     public abstract void speak();
+    
     public Animal(String name, String gender, int age) {
         this.name = name;
         this.gender = gender;
@@ -263,6 +265,7 @@ public class Cat extends Animal {
         super(name, gender, age);
         this.furColor = furColor;
     }
+    
     @Override
     public void speak() {
         System.out.println("Cat " + getName() + " says 'meow'");
