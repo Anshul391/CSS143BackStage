@@ -412,5 +412,5 @@ Discuss the big O time complexity of this iterative method.
 ```
 
 **(5pt) Bonus Points 2**
-List all 3 movies that were mentioned as examples in the lectures.
 
+In the first lecture we saw a cool lego truck. What problem was it used for illustration?
