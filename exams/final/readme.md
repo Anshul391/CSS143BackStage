@@ -195,7 +195,7 @@ post-order:
 
 **10. (20pt) Write the code to iteratively reverse THE SECOND HALF of a single linked list in place.**
 
-The single linked list has a dummy node. 
+The single linked list has a dummy node. And "second half" means from the middle of the list to the end. If there's odd number of nodes, the node in the dead center does not participate in the reversal. The dummy node is not considered part of the list to be counted for reversal.
 
 10.1 (15pt) Write the code given the following list node definition
 
