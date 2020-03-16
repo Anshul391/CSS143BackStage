@@ -4,24 +4,24 @@
 
 **All choice questions are single choice**
 
-**1. (2pt) Which of the following statements about sorting algorithm is FALSE?**
+**1. (2pt) Which of the following statement about sorting algorithm is FALSE?**
 
 - (A) Heap sort has O(1) space complexity
-- (B) Quick sort is stable
-- (C) Bubble sort has O(n^2) time complexity  
+- (B) Quicksort is a stable sorting algorithm
+- (C) Bubble sort has O(n^2) time complexity, n square that is
 - (D) Merge sort can be implemented by recursion
 
-**2. (2pt) Which of the following statements about software testing is FALSE?**
+**2. (2pt) Which of the following statement about Stack and Queue ADT is FALSE?**
 
-- (A) Junit is a Java testing framework
-- (B) Tests can be done by comparing actual results from running code with known expcted result  
-- (C) Test cases need to cover both possible data inputs and code paths
-- (D) If my test passes, my code is correct
+- (A) Stack is First-In-Last-Out
+- (B) Queue is Last-In-Last-Out
+- (C) Stack can be used to implement a recursive algorithm iteratively
+- (D) Queue is implemented with array so its size is limited by the initial capacity
 
-**3. (2pt) Which of the following statements about software testing is FALSE?**
+**3. (2pt) Which of the following statement about software testing is FALSE?**
 
-- (A) Junit is a Java testing framework
-- (B) Tests can be done by comparing actual results from running code with known expcted result  
+- (A) JUnit is a Java testing framework
+- (B) Testing can be done by comparing actual results from running code with known expcted result  
 - (C) Test cases need to cover both possible data inputs and code paths
 - (D) If my test passes, my code is correct
 
@@ -34,7 +34,7 @@
 
 
 
-**5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from the repo?**
+**5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from your github repo?**
 
 ```bash
 
@@ -61,8 +61,8 @@ In the lecture we saw the following code that calculate and sort the word freque
         TreeMap<Integer, Set<String>> sortedMap = new TreeMap<>(Collections.reverseOrder());
         for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
             int key = entry.getValue();
-            Set<String> values = sortedMap.containsKey(key) ?
-                    sortedMap.get(key) : new HashSet<>();
+            Set<String> values = sortedMap.containsKey(key) ? 
+                       sortedMap.get(key) : new HashSet<>();
             values.add(entry.getKey());
             sortedMap.put(entry.getValue(), values);
         }
@@ -70,7 +70,7 @@ In the lecture we saw the following code that calculate and sort the word freque
 
 Answer the following question about this code:
 
-1. (2pt) Explain why the value of the variable ***sortedMap*** is a Set instead of a String.
+1. (2pt) Explain why the entry value of the variable ***sortedMap*** is a Set instead of a String.
 
 ```bash
 
@@ -105,7 +105,7 @@ What is the corresponding data in ***sortedMap***?
 
 ```
 
-4. (4pt) Analyze the time complexity for generating ***sortedMap*** in big O notation?
+4. (4pt) Analyze the time complexity for generating data in***sortedMap*** in big O notation? This is referring to the 2nd block of the above code
 
 ```bash
 
@@ -139,7 +139,7 @@ What is the corresponding data in ***sortedMap***?
         tests.add(test5);
 ```
 
-Please list what is the problem with the above code and then give the new code that does the same but with improved quality.
+Please list the problem of the above code in terms of code quality and then provide the improved code
 
 ```bash
 
@@ -186,13 +186,13 @@ post-order:
 
 ```bash
 
-[                                  ]
+
 
 ```
 
 
 
-**10. (20pt) Given a single linked list with a dummy node, write the code to iteratively reverse the 2nd half of the list in place.**
+**10. (20pt) Write the code to iteratively reverse THE SECOND HALF of a single linked list in place.**
 
 1. (15pt) Write the code given the following list node definition
 
@@ -210,8 +210,8 @@ post-order:
 For example, 
 
 ```bash
-Input: h-->1-->2-->3, output: h-->1-->2-->3
-Input: h-->1-->2-->3-->4, output: h-->1-->4-->3
+Input: h-->1-->3-->2, output: h-->1-->3-->2
+Input: h-->1-->5-->3-->4, output: h-->1-->5-->4-->3
 Input: h-->1-->2-->3-->4-->5, output: h-->1-->2-->3-->5-->4
 Input: h-->1-->2-->3-->4-->5-->6, output: h-->1-->2-->3-->6-->5-->4
 ```
@@ -222,6 +222,7 @@ The reversal is to be done **in place** like the regular iterative reversal.
 public class Solution {
       public void reverse(ListNode head) {
       // your code here
+      // head is the dummy node
     }
 }
 ```
@@ -266,27 +267,27 @@ public class Cat extends Animal {
 }
 ```
 
-1. (2pt) Why is ***speak()*** defined as ***abstract*** in the Animal class?
+1. (2pt) Why does the keyword ***abstract*** do in the definition of ***speak()***  in Animal class?
 
 ```bash
 
 
 ```
 
-2. (2pt) What does "@Override" mean?
+2. (2pt) What does ***"@Override"*** mean?
 
 ```bash
 
 
 ```
 
-3. (2pt) What does ***super(name, gender, age)*** do?
+3. (2pt) What does the call to***super(name, gender, age)*** do?
 
 ```bash
 
 ```
 
-4. (2pt) The ***Animal*** class is defined as an abstract class. But Java also has ***interface***. What's the difference between an abstract class and interface in Java?
+4. (2pt) The ***Animal*** class is defined as an abstract class. But Java also has ***interface*** type. What's the difference between an abstract class and interface in Java?
 
 ```bash
 
@@ -301,9 +302,16 @@ animal = new Cat("coco", "he", 13, "black");
 animal.speak();
 ```
 
+```bash
+
+
+```
+
 
 
 **12. (20pt) Write the code to check if two binary trees are identical**
+
+Hint: think recursively.
 
 A binary tree node is defined as the following:
 
@@ -326,7 +334,7 @@ class Solution {
 }
 ```
 
-***isIdentical*** returns true is both tree are identical (same shape, same node values in all the nodes). False otherwise. For example
+***isIdentical*** returns true is both trees are identical (same shape, same node values in all the nodes). False otherwise. For example
 
 ```bash
 Input:     3         3
@@ -347,7 +355,7 @@ Output: false
 
 An empty tree is identical to an empty tree.
 
-2. (10pt) Write a test plan for your code. List your test cases with specific binary tree inputs.
+2. (10pt) Write a test plan for your code. List your proposed test cases with specific binary tree inputs. No need to write actual code.
 
 ```bash
 
@@ -356,9 +364,9 @@ An empty tree is identical to an empty tree.
 
 ```
 
-***Bonus Points***
+**(10pt) Bonus Points**
 
-From the "unique path" problem we dicussed in lecture, the following recursion solution was given
+For the "unique path" problem we dicussed in lecture, the following recursion solution was given
 
 ```java
     public static int uniquePaths(int m, int n) {
@@ -381,6 +389,15 @@ This implementation has bad performance because of the "repeated subprobem". Re-
     public static int uniquePathsIterative(int m, int n) {
 			// your code here
     }
+```
+
+Discuss the big O time complexity of this iterative method.
+
+```bash
+
+
+
+
 ```
 
 
