@@ -281,7 +281,7 @@ public class Cat extends Animal {
 
 ```
 
-3. (2pt) What does the call to***super(name, gender, age)*** do?
+3. (2pt) What does the call to ***super(name, gender, age)*** do?
 
 ```bash
 
