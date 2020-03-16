@@ -195,6 +195,8 @@ post-order:
 
 **10. (20pt) Write the code to iteratively reverse THE SECOND HALF of a single linked list in place.**
 
+The single linked list has a dummy node. 
+
 10.1 (15pt) Write the code given the following list node definition
 
    ```java
