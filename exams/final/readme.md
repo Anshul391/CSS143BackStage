@@ -28,7 +28,7 @@
 **4. (2pt) Which of the following statements about the dictionary ADT is FALSE?**
 
 - (A) Chaining can be used to solve the collision problem
-- (B) Dictionary always has O(1) time complexity for entry retrieval 
+- (B) Dictionary always has O(1) time complexity for entry retrieval, aka get(key)
 - (C) Dictionary can be implemented with array
 - (D) The hash function that generates hash key needs to have low complexity (in another word, FAST)
 
