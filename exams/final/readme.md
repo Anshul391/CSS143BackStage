@@ -192,7 +192,7 @@ post-order:
 
 
 
-**10. (20pt) Given a single linked list with dummy node, write the code to iteratively reverse the 2nd half of the list in place.**
+**10. (20pt) Given a single linked list with a dummy node, write the code to iteratively reverse the 2nd half of the list in place.**
 
 1. (15pt) Write the code given the following list node definition
 
@@ -203,9 +203,6 @@ post-order:
        public ListNode(int val) {
            this.val = val;
            this.next = null;
-       }
-       public void reverse2ndHalf() {
-         // your code here
        }
    }
    ```
@@ -220,6 +217,14 @@ Input: h-->1-->2-->3-->4-->5-->6, output: h-->1-->2-->3-->6-->5-->4
 ```
 
 The reversal is to be done **in place** like the regular iterative reversal.
+
+```java
+public class Solution {
+      public void reverse(ListNode head) {
+      // your code here
+    }
+}
+```
 
 
 
