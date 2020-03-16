@@ -88,7 +88,7 @@ Answer the following question about this code:
 
 ```
 
-6.3 (3pt) Supposed ***wordMap*** has the following data:
+6.3 (3pt) Suppose ***wordMap*** has the following data:
 
 ```bash
 and : 8
@@ -98,7 +98,7 @@ what : 2
 we : 3
 ```
 
-What is the corresponding data in ***sortedMap***?
+What is the corresponding data in ***sortedMap*** after running the given code?
 
 ```bash
 
