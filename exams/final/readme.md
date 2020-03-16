@@ -34,7 +34,7 @@
 
 
 
-**5. (2pt) Suppose you accidently added a .class file to your github repository. Describe the steps you'd take to remove this file from your github repo?**
+**5. (2pt) Suppose you accidently added a .class file to your github repository, and you know you shouldn't check in .class files. Describe the steps you'd take to remove this file from your github repo?**
 
 ```bash
 
