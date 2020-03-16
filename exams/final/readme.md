@@ -381,9 +381,6 @@ For the "unique path" problem we dicussed in lecture, the following recursion so
 
 ```java
     public static int uniquePaths(int m, int n) {
-        if (m!=0 && n!=0) {
-            System.out.printf("%d,%d\n", m, n);
-        }
         if (m==0 || n==0) {
             return 0;
         }
